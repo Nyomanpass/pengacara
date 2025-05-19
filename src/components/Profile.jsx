@@ -26,25 +26,7 @@ const Profile = () => {
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consequuntur! Odio qui maiores, impedit labore recusandae animi harum soluta deleniti ipsum tempora eveniet commodi, necessitatibus, sapiente vero ducimus asperiores laboriosam.
       </p>
 
-      {/* Statistik */}
-      <div className="grid grid-cols-2 gap-6 mt-6">
-        <div>
-          <div className="text-primary text-3xl font-bold">450+</div>
-          <div className="text-gray-600 text-sm">Cases Solved</div>
-        </div>
-        <div>
-          <div className="text-primary text-3xl font-bold">20+</div>
-          <div className="text-gray-600 text-sm">Years of Experience</div>
-        </div>
-        <div>
-          <div className="text-primary text-3xl font-bold">100%</div>
-          <div className="text-gray-600 text-sm">Client Trust</div>
-        </div>
-        <div>
-          <div className="text-primary text-3xl font-bold">10+</div>
-          <div className="text-gray-600 text-sm">Expert Lawyers</div>
-        </div>
-      </div>
+
     </div>
 
     {/* Kanan: Gambar */}
