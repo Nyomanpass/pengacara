@@ -13,54 +13,45 @@ const ContactHeader = () => {
       {/* Overlay Hitam */}
       <div className="absolute inset-0 bg-secondary bg-opacity-60"></div>
 
-      {/* Konten */}
-      <div className="relative z-10 container h-full flex flex-col justify-center py-12">
-        {/* Judul & Tombol */}
-        <div>
+      <div className="relative z-10 container h-full items-center flex py-12">
+        <div className='max-w-4xl'>
           <h1 className="text-white text-3xl mt-16 md:text-5xl font-bold mb-4">
-            Always Respect <span className="text-primary">Justice</span> <br /> of The Law
+            Siap Mendampingi <span className="text-primary">Langkah Hukum</span> Anda
           </h1>
           <p className="text-gray-200 max-w-3xl py-5 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dapatkan pendampingan yang jelas dan terpercaya untuk setiap kebutuhan <br></br> hukum yang sedang dihadapi.
           </p>
         </div>
-
       </div>
+
     </section>
     <div className="container pt-28 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Left Side - Contact Info */}
         <div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-          <p className="text-gray-600 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
-            accumsan eros, sit amet auctor nunc. Nullam ac purus.
-          </p>
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Hubungi Sekarang</h2>
+        <p className="text-gray-600 mb-6">
+          Siap membantu menjawab pertanyaan atau kebutuhan hukum yang ingin didiskusikan lebih lanjut.
+        </p>
+
 
           <div className="space-y-6">
             <div className="flex items-start space-x-4">
-              <div className="flex items-center bg-primary text-white justify-center w-10 h-10 rounded-full">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+             
               <div>
                 <h4 className="font-semibold text-gray-900">Address</h4>
-                <p className="text-gray-600">London Eye, London, UK</p>
+                <p className="text-gray-600">Jalan Sekar Tunjung XIII No.10A Gatot Subroto Timur Denpasar Bali Indonesia</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
-              <div className="flex items-center bg-primary text-white justify-center w-10 h-10 rounded-full">
-                <ion-icon name="call-outline"></ion-icon>
-              </div>
+              
               <div>
                 <h4 className="font-semibold text-gray-900">Phone Number</h4>
-                <p className="text-gray-600">+123-456-7890</p>
+                <p className="text-gray-600">(+62) 821-5860-6679</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
-              <div className="flex items-center bg-primary text-white justify-center w-10 h-10 rounded-full">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+              
               <div>
                 <h4 className="font-semibold text-gray-900">E-Mail</h4>
                 <p className="text-gray-600">mailto@subx.com</p>
@@ -83,7 +74,7 @@ const ContactHeader = () => {
 
         {/* Right Side - Contact Form */}
         <div className="bg-white rounded-2xl shadow p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Send message</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Kirim Pesan</h2>
           <form className="space-y-4">
             <input
               type="text"

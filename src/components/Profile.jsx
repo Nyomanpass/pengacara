@@ -7,27 +7,28 @@ const Profile = () => {
 
     <section className="bg-white py-16">
   <div className="container py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-    {/* Kiri: Teks dan statistik */}
-    <div>
-      <div className="mb-6 border-l-4 border-yellow-500 pl-4">
-        <h2 className="text-3xl font-semibold text-gray-800 leading-tight">
-          We are the leading firm in worldwide
-        </h2>
-      </div>
-      <p className="text-lg font-medium text-gray-700 mb-2">
-        Loyalty is very important to client
-      </p>
-      <p className="text-gray-500 mb-8">
-        Kami adalah firma hukum independen dengan fokus pada keadilan, loyalitas klien, dan hasil yang nyata. 
-        Dengan pengalaman lebih dari 20 tahun, kami telah menyelesaikan ratusan kasus dengan pendekatan profesional dan beretika.
-      </p>
-
-      <p className="text-gray-500 mb-8">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consequuntur! Odio qui maiores, impedit labore recusandae animi harum soluta deleniti ipsum tempora eveniet commodi, necessitatibus, sapiente vero ducimus asperiores laboriosam.
-      </p>
+{/* Kiri: Teks dan statistik */}
+<div>
+  <div className="mb-6 border-l-4 border-yellow-500 pl-4">
+    <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 leading-tight">
+    Pengabdian hukum dengan integritas dan tanggung jawab.
+    </h2>
+  </div>
 
 
-    </div>
+  <p className="text-gray-500 mb-6">
+    Berdiri di atas prinsip keadilan dan profesionalisme, menyelesaikan berbagai perkara hukum — dari persoalan keluarga, perdata, hingga pidana dan sengketa properti.
+  </p>
+
+  <p className="text-gray-500 mb-6">
+    Dengan pengalaman lebih dari 15 tahun di dunia hukum, setiap klien mendapatkan pendampingan menyeluruh dan strategi hukum yang disesuaikan. Setiap kasus ditangani secara etis, transparan, dan dengan komitmen penuh untuk melindungi hak serta kepentingan hukum klien.
+  </p>
+
+  <p className="text-gray-500 mb-6">
+    Tidak hanya fokus pada penyelesaian sengketa, tetapi juga memberikan edukasi dan pencegahan hukum, agar masyarakat lebih sadar hukum dan mampu mengambil keputusan yang tepat secara legal.
+  </p>
+</div>
+
 
     {/* Kanan: Gambar */}
     <div className="relative">
@@ -48,7 +49,7 @@ const Profile = () => {
   </div>
 </section>
 
-<section className="flex container pb-28 flex-col md:flex-row items-center justify-between gap-8 bg-white">
+<section className="grid container pb-28 md:grid-cols-2 grid-cols-1 items-center justify-between gap-8 bg-white">
       {/* Left Side Images and Stats */}
       <div className="grid grid-cols-2 gap-4 max-w-lg">
         <img
@@ -78,23 +79,20 @@ const Profile = () => {
 
       {/* Right Side Text */}
       <div className="max-w-xl">
-        <p className="text-sm text-gray-500 mb-2 uppercase tracking-wide">
-          Business-Driven Legal Expertise
-        </p>
-        <h2 className="text-3xl font-semibold text-gray-800 leading-tight">
-          Legal Expertise With Real-World Business Success
-        </h2>
-        <p className="text-gray-500 mb-8 mt-3">
-          At Trusted Plan Lawyers, we combine legal knowledge with firsthand
-          entrepreneurial experience. Our approach goes beyond standard legal
-          advice—we deliver actionable strategies drawn from real achievements
-          in business growth and management. Work with a partner who understands
-          the challenges of building and protecting a business.
-        </p>
-        <button className="bg-primary text-white px-6 py-2 rounded-full hover:bg-yellow-700">
-          Get Started
-        </button>
-      </div>
+
+  <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 leading-tight">
+    Pendampingan Hukum Tanpa Batas Bahasa dan Wilayah
+  </h2>
+  <p className="text-gray-500 mb-8 mt-3">
+    Proses hukum di Indonesia sering kali melibatkan kendala bahasa bagi warga negara asing atau ekspatriat. Dengan kemampuan komunikasi dalam bahasa Inggris, berbagai layanan hukum seperti perkara perdata, pertanahan, warisan, hingga perizinan usaha dapat diakses lebih mudah dan jelas.
+    <br /><br />
+    Pendampingan hukum yang dapat menjembatani perbedaan budaya dan sistem hukum, tanpa kehilangan esensi keadilan di Indonesia.
+  </p>
+  <button className="bg-primary text-white px-6 py-2 rounded-full hover:bg-yellow-700 transition">
+    Konsultasi Sekarang
+  </button>
+</div>
+
     </section>
 
     <section
@@ -107,27 +105,26 @@ const Profile = () => {
         <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 
         <div className="relative container mx-auto max-w-5xl text-center px-4 text-white">
-            <h2 className="text-3xl font-bold mb-12 tracking-tight">
-                Our Core Values
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 container">
                 {[
-                {
-                    title: "Integritas",
-                    desc: "Kami menjunjung tinggi kejujuran dan tanggung jawab dalam setiap langkah hukum.",
-                    icon: "shield-checkmark-outline",
-                },
-                {
-                    title: "Empati",
-                    desc: "Kami memahami klien sebagai manusia, bukan hanya kasus hukum.",
-                    icon: "chatbubble-ellipses-outline",
-                },
-                {
-                    title: "Kompetensi",
-                    desc: "Pengacara kami terus mengembangkan keahlian di berbagai bidang hukum modern.",
-                    icon: "school-outline",
-                },
-                ].map((item, idx) => (
+  {
+    title: "Integritas",
+    desc: "Setiap tindakan hukum dijalankan dengan kejujuran, tanggung jawab, dan komitmen terhadap etika.",
+    icon: "shield-checkmark-outline",
+  },
+  {
+    title: "Empati",
+    desc: "Pendekatan yang memanusiakan klien, dengan mendengarkan dan memahami setiap latar belakang permasalahan.",
+    icon: "chatbubble-ellipses-outline",
+  },
+  {
+    title: "Kompetensi",
+    desc: "Keahlian hukum terus diasah untuk menghadapi tantangan hukum modern dan kebutuhan klien yang beragam.",
+    icon: "school-outline",
+  },
+]
+.map((item, idx) => (
                 <div
                     key={idx}
                     className="bg-white/10 backdrop-blur-md shadow-lg rounded-xl p-6 hover:shadow-xl transition-all duration-300 border border-white/20"

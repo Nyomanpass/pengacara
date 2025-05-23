@@ -2,10 +2,10 @@ import React from 'react';
 
 const Statistik = () => {
   const stats = [
-    { value: "1,000+", label: "Klien Terpercaya" },
+    { value: "100+", label: "Klien Terpercaya" },
     { value: "95%", label: "Kasus Berhasil" },
-    { value: "500+", label: "Kasus Ditangani" },
-    { value: "20+ Tahun", label: "Pengalaman" },
+    { value: "100+", label: "Kasus Ditangani" },
+    { value: "15+ Tahun", label: "Pengalaman" },
   ];
 
   return (
@@ -13,7 +13,7 @@ const Statistik = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         {stats.map((stat, index) => (
           <div key={index}>
-            <h2 className="text-3xl font-bold">{stat.value}</h2>
+            <h2 className="text-2xl md:text-3xl font-bold">{stat.value}</h2>
             <p className="mt-2">{stat.label}</p>
           </div>
         ))}

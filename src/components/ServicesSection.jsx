@@ -2,35 +2,37 @@ import React from 'react';
 
 const services = [
   {
-    icon: 'ribbon-outline',
-    title: 'Skilled Attorneys',
+    icon: 'person-outline',
+    title: 'Pendampingan Hukum Pribadi',
     description:
-      'Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull',
+      'Memberikan layanan hukum secara langsung dan personal, ditangani oleh saya sendiri bersama rekan terpercaya untuk memastikan bantuan terbaik bagi Anda.',
   },
   {
-    icon: 'scale-outline',
-    title: 'Legal Defence',
+    icon: 'shield-checkmark-outline',
+    title: 'Pembelaan Hukum',
     description:
-      'Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull',
+      'Mendampingi Anda dalam proses hukum, baik sebagai penasihat maupun sebagai kuasa hukum dalam menghadapi perkara pidana atau perdata.',
   },
   {
-    icon: 'people-outline',
-    title: '99% case win',
+    icon: 'trophy-outline',
+    title: '95% Kasus Terselesaikan',
     description:
-      'Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull',
+      'Berdasarkan pengalaman yang telah saya jalani, sebagian besar kasus berhasil diselesaikan dengan hasil yang memuaskan klien.',
   },
   {
-    icon: 'scale-outline',
-    title: 'Legal Defence',
+    icon: 'chatbubble-ellipses-outline',
+    title: 'Pendampingan Hukum Internasional',
     description:
-      'Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull',
-  },
+      'Saya menyediakan layanan hukum dalam bahasa Inggris untuk klien yang membutuhkan pendampingan atau konsultasi hukum secara internasional.',
+  }
+  
 ];
+
 
 const ServicesSection = () => {
   return (
     <section className="pb-32 bg-white">
-      <div className="container grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <div
             key={index}

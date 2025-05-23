@@ -32,11 +32,11 @@ const Header = () => {
     {/* Konten di atas background */}
     <div className="relative z-20 flex h-full items-center container">
       <div className="text-white max-w-xl">
-        <h1 className="text-4xl md:text-5xl  leading-tight mb-4">
-          Our Independence <br /> Makes the Difference
+        <h1 className="text-2xl md:text-5xl  leading-tight mb-4">
+          Solusi Hukum yang Tepat, <br/> Untuk Keadilan yang Nyata
         </h1>
-        <p className="text-lg mb-6">
-          Nationally Established. Internationally Recognized
+        <p className="text-sm lg:text-lg mb-6">
+        Fokus pada hasil, transparansi dalam proses, dan keberpihakan pada kebenaran.
         </p>
         <button className="bg-primary text-white font-semibold px-6 py-3 rounded shadow hover:bg-yellow-600 transition">
           Free Consultation

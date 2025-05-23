@@ -17,11 +17,11 @@ const Footer = () => {
               {/* Brand Section */}
               <div className="lg:w-1/4">
                 <div className="flex items-center gap-3">
-                  <img src="logo.webp" alt="Logo" className="w-[40px]" />
-                  <span className="text-xl font-bold font-serif text-white">CARRERAS</span>
+                  <img src="logo.png" alt="Logo" className="w-[40px]" />
+                  <span className="text-xl font-bold font-serif text-white">Konsultan Hukum</span>
                   </div>
                 <p className="text-sm">
-                  Kantor Hukum [Nama Firma] berkomitmen memberikan layanan hukum yang jujur, profesional, dan terpercaya untuk perlindungan hak-hak Anda.
+                Setiap permasalahan hukum membutuhkan penanganan yang tepat dan bijaksana. Dapatkan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak secara menyeluruh.
                 </p>
                 <div className="flex gap-4 mt-4">
                   <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
@@ -37,12 +37,12 @@ const Footer = () => {
               <div className="flex-1 grid grid-cols-1 md:grid-cols-4 gap-6">
                 {/* Tentang */}
                 <div>
-                  <h2 className="text-white font-semibold mb-2">Tentang Kami</h2>
+                  <h2 className="text-white font-semibold mb-2">Link Terkait</h2>
                   <ul className="text-sm space-y-1">
-                    <li><a href="/#about" className="hover:underline">Profil Firma</a></li>
-                    <li><a href="/#about" className="hover:underline">Visi & Misi</a></li>
-                    <li><a href="/#team" className="hover:underline">Tim Pengacara</a></li>
-                    <li><a href="/#testimoni" className="hover:underline">Testimoni Klien</a></li>
+                    <li><a href="/#about" className="hover:underline">Home</a></li>
+                    <li><a href="/#about" className="hover:underline">About</a></li>
+                    <li><a href="/#team" className="hover:underline">Layanan</a></li>
+                    <li><a href="/#testimoni" className="hover:underline">Contact</a></li>
                   </ul>
                 </div>
   
@@ -53,7 +53,8 @@ const Footer = () => {
                     <li><a href="/#layanan" className="hover:underline">Hukum Keluarga</a></li>
                     <li><a href="/#layanan" className="hover:underline">Hukum Perdata</a></li>
                     <li><a href="/#layanan" className="hover:underline">Hukum Pidana</a></li>
-                    <li><a href="/#layanan" className="hover:underline">Konsultasi Kontrak</a></li>
+                    <li><a href="/#layanan" className="hover:underline">Sengketa Tanah</a></li>
+                    <li><a href="/#layanan" className="hover:underline">Hukum Bisnis/Korporasi</a></li>
                   </ul>
                 </div>
   
@@ -63,7 +64,6 @@ const Footer = () => {
                   <ul className="text-sm space-y-1">
                     <li><a href="/blog" className="hover:underline">Artikel Hukum</a></li>
                     <li><a href="/faq" className="hover:underline">FAQ</a></li>
-                    <li><a href="/karir" className="hover:underline">Karir</a></li>
                   </ul>
                 </div>
   
@@ -71,11 +71,10 @@ const Footer = () => {
                 <div>
                   <h2 className="text-white font-semibold mb-2">Kontak Kami</h2>
                   <p className="text-sm">
-                    Jl. Merdeka No. 123, Jakarta Pusat<br />
-                    Indonesia 10110
+                     Jalan Sekar Tunjung XIII No.10A Gatot Subroto Timur Denpasar Bali Indonesia
                   </p>
                   <p className="text-sm mt-2">
-                    (+62) 812-3456-7890<br />
+                    (+62) 821-5860-6679<br />
                     info@firmahukum.com
                   </p>
                 </div>
@@ -85,7 +84,7 @@ const Footer = () => {
             {/* Footer Bottom */}
             <div className="border-t border-gray-600 mt-10 pt-6 text-center">
               <p className="text-sm">
-                &copy; 2025 Firma Hukum. Hak Cipta Dilindungi. |
+                &copy; 2025 Konsultan Hukum. Hak Cipta Dilindungi. |
                 <a href="/privacy" className="hover:underline mx-1">Kebijakan Privasi</a> |
                 <a href="/terms" className="hover:underline">Syarat & Ketentuan</a>
               </p>

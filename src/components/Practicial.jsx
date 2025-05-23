@@ -31,15 +31,14 @@ export default function Practicial() {
 
   return (
     <section className="bg-[#1b1d2f] text-white py-32" id="practice-areas">
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Kiri: Judul dan intro */}
         <div>
           <h2 className="text-4xl md:text-5xl font-light leading-snug mb-6">
-            Legal Practice Areas
+            Bidang Praktik Hukum
           </h2>
           <p className="text-gray-300 leading-relaxed text-lg">
-            Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-            sit amet adipiscing sem neque sed ipsum. Nam quam nunc.
+          Berbagai layanan hukum disediakan secara profesional untuk menangani permasalahan sesuai bidangnya.
           </p>
           <img className="mt-10 rounded-xl shadow-md" src="header1.jpg" alt="" />
         </div>

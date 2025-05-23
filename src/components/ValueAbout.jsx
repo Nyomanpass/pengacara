@@ -3,33 +3,35 @@ import React from "react";
 const services = [
   {
     icon: <ion-icon name="people-sharp" class="text-3xl"></ion-icon>,
-    title: "Family Law",
+    title: "Hukum Keluarga",
     description: "Perceraian, hak asuh anak, warisan",
     active: false,
   },
   {
     icon: <ion-icon name="document-text" class="text-3xl"></ion-icon>,
-    title: "Contract Law",
-    description: "Pembuatan, peninjauan, dan sengketa kontrak",
+    title: "Hukum Perdata",
+    description: "Sengketa perjanjian, tanggung jawab perdata, ganti rugi",
     active: false,
   },
   {
     icon: <ion-icon name="hammer" class="text-3xl"></ion-icon>,
-    title: "Criminal Law",
-    description: "Tindak pidana, pembelaan di pengadilan",
+    title: "Hukum Pidana",
+    description: "Tindak pidana, pembelaan hukum, dan pendampingan perkara",
     active: false,
   },
   {
     icon: <ion-icon name="home" class="text-3xl"></ion-icon>,
-    title: "Land & Property Law",
+    title: "Hukum Tanah & Properti",
     description: "Sengketa tanah, jual beli rumah, warisan tanah",
     active: false,
   },
 ];
 
+
 export default function ValueAbout() {
   return (
-    <div className="relative z-30 -mt-24 mx-auto w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-4 bg-white shadow-lg divide-x divide-gray-200 rounded-lg overflow-hidden">
+   <div className="container">
+     <div className="relative z-30 -mt-24 mx-auto w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-white shadow-lg divide-x divide-gray-200 rounded-lg overflow-hidden">
         {services.map((service, index) => (
             <div
             key={index}
@@ -43,7 +45,7 @@ export default function ValueAbout() {
                 {service.icon}
             </div>
 
-            <div className="text-xl font-semibold tracking-wide leading-tight">
+            <div className="text-lg lg:text-xl font-semibold tracking-wide leading-tight">
                 {service.title}
             </div>
 
@@ -53,6 +55,7 @@ export default function ValueAbout() {
             </div>
         ))}
     </div>
+   </div>
 
   );
 }
