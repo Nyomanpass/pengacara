@@ -12,7 +12,7 @@ const Footer = () => {
 
       
 
-        <footer id="contact" className="bg-secondary text-gray-300 w-full pt-32 pb-14 ">
+        <footer id="contact" className="bg-secondary text-gray-300 w-full pt-24 pb-14 ">
           <div className="container">
             <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
               {/* Brand Section */}
@@ -22,7 +22,8 @@ const Footer = () => {
                   <span className="text-xl font-bold font-serif text-white">Konsultan Hukum</span>
                   </div>
                 <p className="text-sm">
-             Setiap permasalahan hukum membutuhkan penanganan yang tepat dan bijaksana. Dapatkan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak secara menyeluruh.
+             Setiap permasalahan hukum membutuhkan penanganan yang tepat dan bijaksana. 
+          Dapatkan advice dan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak clien secara menyeluruh.
                 </p>
               </div>
   
@@ -33,8 +34,6 @@ const Footer = () => {
                   <h2 className="text-white font-semibold mb-2">Link Terkait</h2>
                   <ul className="text-sm space-y-1">
                     <li><a href="/#about" className="hover:underline">Home</a></li>
-                    <li><a href="/#about" className="hover:underline">About</a></li>
-                    <li><a href="/#team" className="hover:underline">Layanan</a></li>
                     <li><a href="/#testimoni" className="hover:underline">Contact</a></li>
                   </ul>
                 </div>
@@ -47,18 +46,9 @@ const Footer = () => {
                     <li><a href="/#layanan" className="hover:underline">Hukum Perdata</a></li>
                     <li><a href="/#layanan" className="hover:underline">Hukum Pidana</a></li>
                     <li><a href="/#layanan" className="hover:underline">Sengketa Tanah</a></li>
-                    <li><a href="/#layanan" className="hover:underline">Hukum Bisnis/Korporasi</a></li>
                   </ul>
                 </div>
-  
-                {/* Informasi */}
-                <div>
-                  <h2 className="text-white font-semibold mb-2">Informasi</h2>
-                  <ul className="text-sm space-y-1">
-                    <li><a href="/blog" className="hover:underline">Artikel Hukum</a></li>
-                    <li><a href="/faq" className="hover:underline">FAQ</a></li>
-                  </ul>
-                </div>
+            
   
                 {/* Kontak */}
                 <div>
@@ -68,11 +58,15 @@ const Footer = () => {
                   </p>
                   <p className="text-sm mt-2">
                     (+62) 821-5860-6679<br />
-                    info@firmahukum.com
+                    saliasmardy@yahoo.co.id
                   </p>
+                </div>
+                <div>
+                  <img class="w-36 md:w-60" src="/logoaai.png" alt="" />
                 </div>
               </div>
             </div>
+           
   
             {/* Footer Bottom */}
             <div className="border-t border-gray-600 mt-10 pt-6 text-center">
