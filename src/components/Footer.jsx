@@ -22,16 +22,8 @@ const Footer = () => {
                   <span className="text-xl font-bold font-serif text-white">Konsultan Hukum</span>
                   </div>
                 <p className="text-sm">
-                Setiap permasalahan hukum membutuhkan penanganan yang tepat dan bijaksana. Dapatkan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak secara menyeluruh.
+             Setiap permasalahan hukum membutuhkan penanganan yang tepat dan bijaksana. Dapatkan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak secara menyeluruh.
                 </p>
-                <div className="flex gap-4 mt-4">
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </div>
               </div>
   
               {/* Links Section */}

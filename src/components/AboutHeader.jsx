@@ -34,16 +34,16 @@ const items = [
         {/* Judul & Tombol */}
         <div className='md:mt-0 mt-36'>
         <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">
-          Selalu Junjung <span className="text-primary">Keadilan</span> <br /> dalam Hukum
+          Selalu Menjunjung Tinggi <span className="text-primary">Keadilan Dalam Setiap</span> <br /> Menangani Perkara
         </h1>
         <p className="text-gray-200 max-w-3xl py-5 mb-6">
           Setiap permasalahan hukum membutuhkan penanganan yang tepat dan bijaksana. 
           Dapatkan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak secara menyeluruh.
         </p>
 
-          <button className="bg-primary hover:bg-yellow-600 text-white px-5 py-2 rounded w-max">
+          <a href="https://wa.me/6282158606679?text=Halo,%20saya%20ingin%20berkonsultasi%20terhadap%20permasalahan%20yang%20sedang%20saya%20hadapi." className="bg-primary hover:bg-yellow-600 text-white px-5 py-2 rounded w-max">
             Free Consultation
-          </button>
+          </a>
         </div>
 
         {/* Bagian Ikon */}

@@ -7,7 +7,7 @@ import Galery from "../components/Galery"
 import Blog from "../components/Blog"
 import Consultation from "../components/Consultation"
 import Footer from "../components/Footer"
-import Statistik from "../components/Statistik"
+
 
 
 function Home(){
@@ -18,9 +18,7 @@ function Home(){
             <AboutUsSection/>
             <ServicesSection/>
             <Practicial/>
-            <Galery/>
-            <Statistik/>
-            <Blog/>
+            <Galery/>   
             <Consultation/>
             <Footer/>
         </>

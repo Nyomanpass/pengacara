@@ -11,7 +11,7 @@ const services = [
     icon: 'shield-checkmark-outline',
     title: 'Pembelaan Hukum',
     description:
-      'Mendampingi Anda dalam proses hukum, baik sebagai penasihat maupun sebagai kuasa hukum dalam menghadapi perkara pidana atau perdata.',
+      'Mendampingi Anda dalam proses hukum, baik sebagai penasihat hukum maupun sebagai kuasa hukum dalam menghadapi perkara pidana atau perdata.',
   },
   {
     icon: 'trophy-outline',
@@ -23,7 +23,7 @@ const services = [
     icon: 'chatbubble-ellipses-outline',
     title: 'Pendampingan Hukum Internasional',
     description:
-      'Saya menyediakan layanan hukum dalam bahasa Inggris untuk klien yang membutuhkan pendampingan atau konsultasi hukum secara internasional.',
+      'Saya menyediakan layanan hukum dalam bahasa Inggris untuk klien yang membutuhkan pendampingan hukum atau konsultasi hukum.',
   }
   
 ];

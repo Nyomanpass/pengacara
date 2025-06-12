@@ -6,14 +6,14 @@ const AboutUsSection = () => {
           {/* Kiri - Teks utama */}
           <div className="md:col-span-1">
             
-            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 leading-snug mb-4">
-            Mengutamakan Keadilan dalam Setiap Pendampingan Hukum
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 leading-snug mb-8">
+            Mengutamakan Keadilan dalam Setiap Menangani Perkara
             </h2>
-            <p className="text-sencondary mb-6">
+            {/* <p className="text-sencondary mb-6">
             Sebagai advokat berpengalaman, saya bersama tim memberikan pendampingan hukum yang profesional, 
             terpercaya, dan berintegritas tinggi. Membantu Anda menghadapi berbagai 
             persoalan hukum secara bijaksana dan tuntas.
-            </p>
+            </p> */}
 
             <a href="/about" className="text-sencondary border border-primary px-4 py-3 rounded-md font-medium hover:bg-primary hover:text-white duration-300">Profil Lengkap →</a>
 
@@ -31,10 +31,10 @@ const AboutUsSection = () => {
           {/* Kanan - Kutipan */}
           <div className="md:col-span-1">
             <p className="text-gray-600 text-lg leading-relaxed italic mb-6">
-            <span className="text-2xl font-serif text-secondary">S</span>aya, Ni Nengah Saliani, S.H., M.H., adalah seorang advokat 
-  yang memiliki komitmen kuat dalam memberikan keadilan dan perlindungan hukum kepada masyarakat. 
+            <span className="text-2xl font-serif text-secondary">S</span>aya, Ni Nengah Saliani, S.H., M.H., adalah seorang advokat & konsultan hukum
+  yang memiliki komitmen dan berintegritas serta konsisten dalam menangani setiap perkara yang di butuhkan oleh pencari keadilan. 
   Dengan pengalaman dalam menangani berbagai perkara pidana maupun perdata, saya percaya bahwa setiap orang 
-  berhak mendapatkan pembelaan yang adil.
+  berhak mendapatkan keadilan.
             </p>
             
           </div>

@@ -9,7 +9,7 @@ export default function Practicial() {
     },
     {
       title: "Hukum Pidana",
-      desc: "Pendampingan kasus pidana, baik sebagai kuasa hukum tersangka/terdakwa maupun korban.",
+      desc: "Pendampingan kasus pidana, baik sebagai penasehat hukum tersangka/terdakwa maupun korban.",
       icon: "shield-half-outline",
     },
     {
@@ -18,13 +18,8 @@ export default function Practicial() {
       icon: "people-outline",
     },
     {
-      title: "Hukum Bisnis/Korporasi",
-      desc: "Penyusunan kontrak, pendirian PT, kepatuhan hukum perusahaan, dan penyelesaian sengketa usaha.",
-      icon: "briefcase-outline",
-    },
-    {
       title: "Sengketa Tanah",
-      desc: "Membantu klien menyelesaikan konflik tanah, baik administratif maupun melalui litigasi.",
+      desc: "Membantu klien menyelesaikan konflik tanah, baik secara litigasi maupun non litigasi.",
       icon: "map-outline",
     },
   ];
@@ -38,7 +33,7 @@ export default function Practicial() {
             Bidang Praktik Hukum
           </h2>
           <p className="text-gray-300 leading-relaxed text-lg">
-          Berbagai layanan hukum disediakan secara profesional untuk menangani permasalahan sesuai bidangnya.
+          Berbagai layanan hukum disediakan secara profesional untuk menangani permasalahan yang sedang dihadapi.
           </p>
           <img className="mt-10 rounded-xl shadow-md" src="header1.jpg" alt="" />
         </div>

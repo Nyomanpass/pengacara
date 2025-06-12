@@ -1,15 +1,9 @@
-import React from 'react';
 
 const images = [
   'galery1.jpg',
-  'galery2.jpg',
+  'galery11.jpg',
+  'galery12.jpeg',
   'galery3.jpg',
-  'header4.jpg',
-  'galery4.jpg',
-  'galery5.jpg',
-  'galery6.jpg',
-  'header1.jpg',
-  'header2.jpg',
   'header3.jpg',
 ];
 

@@ -25,17 +25,10 @@ export default function Navbar() {
           
           {/* Kontak Info */}
           <div className="flex flex-col md:flex-row gap-2 md:gap-6 items-start md:items-center">
-            <span className="hidden md:block">(+62) 821-0000-6679</span>
-            <span className="hidden md:block">demo@example.com</span>
+            <span className="hidden md:block">(+62) 821-5860-6679</span>
+            <span className="hidden md:block">saliasmardy@yahoo.co.id</span>
             <span>Ni Nengah Saliani, SH, MH.</span>
-          </div>
-
-          {/* Ikon Sosial Media */}
-          <div className="flex gap-4 text-base justify-start md:justify-end">
-            <ion-icon name="logo-facebook" class="text-white"></ion-icon>
-            <ion-icon name="logo-twitter" class="text-white"></ion-icon>
-            <ion-icon name="logo-linkedin" class="text-white"></ion-icon>
-          </div>
+          </div>        
         </div>
       </div>
 
@@ -59,8 +52,6 @@ export default function Navbar() {
               <ul className={`flex px-3 ${headerActive ? 'text-night' : 'lg:text-white'}  lg:px-0 flex-col lg:flex-row gap-7 mt-11 lg:mt-0`}>
                 {[
                   { name: "Home", href: "/" },
-                  { name: "About", href: "/about" },
-                  { name: "Layanan", href: "/layanan" },
                   { name: "Contact", href: "/contact" },
                 ].map((item, index) => (
                   <li
