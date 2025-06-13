@@ -15,7 +15,7 @@ const AboutUsSection = () => {
             persoalan hukum secara bijaksana dan tuntas.
             </p> */}
 
-            <a href="/about" className="text-sencondary border border-primary px-4 py-3 rounded-md font-medium hover:bg-primary hover:text-white duration-300">Profil Lengkap →</a>
+
 
           </div>
   

@@ -4,7 +4,6 @@ import AboutUsSection from "../components/AboutSection"
 import ServicesSection from "../components/ServicesSection"
 import Practicial from "../components/Practicial"
 import Galery from "../components/Galery"
-import Blog from "../components/Blog"
 import Consultation from "../components/Consultation"
 import Footer from "../components/Footer"
 

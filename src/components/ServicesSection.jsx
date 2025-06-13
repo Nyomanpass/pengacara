@@ -21,7 +21,7 @@ const services = [
   },
   {
     icon: 'chatbubble-ellipses-outline',
-    title: 'Pendampingan Hukum Internasional',
+    title: 'Pendampingan Hukum',
     description:
       'Saya menyediakan layanan hukum dalam bahasa Inggris untuk klien yang membutuhkan pendampingan hukum atau konsultasi hukum.',
   }

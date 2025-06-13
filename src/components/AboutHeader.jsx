@@ -41,9 +41,6 @@ const items = [
           Dapatkan advice dan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak clien secara menyeluruh.
         </p>
 
-          <a href="https://wa.me/6282158606679?text=Halo,%20saya%20ingin%20berkonsultasi%20terhadap%20permasalahan%20yang%20sedang%20saya%20hadapi." className="bg-primary hover:bg-yellow-600 text-white px-5 py-2 rounded w-max">
-            Free Consultation
-          </a>
         </div>
 
         {/* Bagian Ikon */}

@@ -54,22 +54,13 @@ const ContactHeader = () => {
               
               <div>
                 <h4 className="font-semibold text-gray-900">E-Mail</h4>
-                <p className="text-gray-600">mailto@subx.com</p>
+                <p className="text-gray-600">saliasmardy@yahoo.co.id</p>
               </div>
             </div>
           </div>
 
           {/* Social Icons */}
-          <div className="mt-8">
-            <h4 className="font-semibold text-gray-900 mb-2">Follow Us:</h4>
-            <div className="flex space-x-4">
-              {['logo-facebook', 'logo-twitter', 'logo-youtube', 'logo-instagram'].map((icon, idx) => (
-                <div key={idx} className="flex items-center bg-primary text-white justify-center w-10 h-10 rounded-full">
-                  <ion-icon name={icon}></ion-icon>
-                </div>
-              ))}
-            </div>
-          </div>
+          
         </div>
 
         {/* Right Side - Contact Form */}

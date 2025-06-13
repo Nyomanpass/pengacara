@@ -9,7 +9,7 @@ const Consultation = () => {
             <p className="text-gray-300 mb-6 text-md">
               Butuh bantuan atau saran hukum? Siap memberikan solusi yang tepat dan profesional untuk permasalahan Anda.
             </p>
-            <a href="https://wa.me/6282158606679?text=Halo,%20saya%20ingin%20berkonsultasi%20terhadap%20permasalahan%20yang%20sedang%20saya%20hadapi." className="bg-yellow-500 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
+            <a href="https://wa.me/6282158606679?text=Halo,%20saya%20ingin%20berkonsultasi%20hukum" className="bg-yellow-500 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
               Konsultasi Sekarang
             </a>
           </div>
