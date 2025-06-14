@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function Practicial() {
   const practiceAreas = [
@@ -35,7 +35,9 @@ export default function Practicial() {
           <p className="text-gray-300 leading-relaxed text-lg">
           Berbagai layanan hukum disediakan secara profesional untuk menangani permasalahan yang sedang dihadapi.
           </p>
-          <img className="mt-10 rounded-xl shadow-md" src="header1.jpg" alt="" />
+          <img className="mt-10 rounded-xl shadow-md" src="lawyerbali.jpg" alt="Lawyer di Bali untuk konsultasi hukum dan bantuan advokat"
+title="Lawyer dan Pengacara Profesional di Bali – Konsultasi Hukum Terpercaya"
+ />
         </div>
 
         {/* Kanan: Daftar area praktik */}

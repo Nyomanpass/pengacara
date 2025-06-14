@@ -62,7 +62,8 @@ const Footer = () => {
                   </p>
                 </div>
                 <div>
-                  <img class="w-36 md:w-60" src="/logoaai.png" alt="" />
+                  <img className="w-36 md:w-60" src="/asosiasi-advokat-indonesia.png" alt="Lawyer di Bali untuk konsultasi hukum dan bantuan advokat"
+                  title="Lawyer dan Pengacara Profesional di Bali – Konsultasi Hukum Terpercaya"/>
                 </div>
               </div>
             </div>

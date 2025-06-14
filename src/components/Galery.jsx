@@ -1,12 +1,3 @@
-
-const images = [
-  'galery1.jpg',
-  'galery11.jpg',
-  'galery12.jpeg',
-  'galery3.jpg',
-  'header3.jpg',
-];
-
 const Galery = () => {
   return (
     <div className="bg-white py-32 pb-10 px-4">
@@ -20,15 +11,43 @@ const Galery = () => {
 
         {/* Masonry Layout */}
         <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
-          {images.map((src, index) => (
-            <div key={index} className="overflow-hidden rounded-lg break-inside-avoid">
+          
+            <div className="overflow-hidden rounded-lg break-inside-avoid">
               <img
-                src={src}
-                alt={`Gallery ${index + 1}`}
+                src="pengacara-konsultasi-bali.jpg"
+                alt="Konsultasi dengan pengacara berpengalaman di Bali"
+                title="Konsultasi Hukum dengan Pengacara dan Lawyer Profesional di Bali"
                 className="w-full object-cover rounded-lg transition-transform duration-300 hover:scale-105"
               />
             </div>
-          ))}
+
+            <div className="overflow-hidden rounded-lg break-inside-avoid">
+              <img
+                src="jasa-advokat-bali.jpg"
+                  alt="Jasa advokat hukum perdata di Bali untuk penyelesaian sengketa"
+                  title="Jasa Advokat Bali untuk Kasus Hukum Perdata"
+                className="w-full object-cover rounded-lg transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+
+            <div className="overflow-hidden rounded-lg break-inside-avoid">
+              <img
+                src="pengacara-lawyer-bali.jpg"
+                alt="Pengacara dan lawyer di Bali memberikan layanan hukum"
+                title="Pengacara & Lawyer di Bali untuk Konsultasi Hukum"
+                className="w-full object-cover rounded-lg transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+
+            <div className="overflow-hidden rounded-lg break-inside-avoid">
+              <img
+                src="kantor-pengacara-bali.jpeg"
+                alt="Kantor jasa pengacara dan lawyer di Bali"
+                title="Kantor Jasa Pengacara & Lawyer di Bali"
+                className="w-full object-cover rounded-lg transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+         
         </div>
       </div>
     </div>

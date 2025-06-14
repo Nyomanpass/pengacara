@@ -22,8 +22,9 @@ const AboutUsSection = () => {
           {/* Tengah - Gambar */}
           <div className="md:col-span-1">
             <img
-              src="about1.jpg" // ganti dengan path gambar kamu
-              alt="Lawyer"
+              src="lawyer-di-bali.jpg" // ganti dengan path gambar kamu
+              alt="Pengacara dan Advokat Profesional di Bali untuk Konsultasi Hukum"
+              title="Jasa Pengacara dan Advokat Bali"
               className="rounded-lg shadow-lg object-cover w-full"
             />
           </div>

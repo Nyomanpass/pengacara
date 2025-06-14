@@ -1,4 +1,4 @@
-import hero1 from '/hero.jpg';
+import hero1 from '/pengacara-bali-profesional.jpg';
 
 const AboutHeader = () => {
 const items = [
