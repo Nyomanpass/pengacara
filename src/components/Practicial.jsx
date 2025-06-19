@@ -1,26 +1,45 @@
-
-
 export default function Practicial() {
   const practiceAreas = [
     {
       title: "Hukum Perdata",
-      desc: "Menyelesaikan sengketa antara individu atau badan hukum, termasuk wanprestasi dan perbuatan melawan hukum.",
+     desc: (
+      <>
+        <p className="font-medium text-gray-200">Permohonan:</p>
+        <ul className="list-none space-y-1 text-gray-300 leading-relaxed">
+          <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">
+            Permohonan perubahan nama
+          </li>
+          <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">
+            Permohonan pengangkatan anak
+          </li>
+          <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">
+            Perceraian melalui Pengadilan Agama maupun Pengadilan Negeri
+          </li>
+        </ul>
+
+
+        <p className="mt-4 font-medium text-gray-200">Sengketa Tanah:</p>
+       <ul className="list-none space-y-1 text-gray-300 leading-relaxed">
+          <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">Perbuatan melawan hukum</li>
+          <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">Perbuatan wanprestasi</li>
+        </ul>
+
+
+        <p className="mt-4 text-gray-300">Baik secara Litigasi maupun Non Litigasi</p>
+      </>
+    ),
+
       icon: "document-text-outline",
     },
     {
       title: "Hukum Pidana",
-      desc: "Pendampingan kasus pidana, baik sebagai penasehat hukum tersangka/terdakwa maupun korban.",
+      desc: (
+        <>
+          <p className="text-gray-300">Pendampingan klien sebagai Pelapor atau Terlapor</p>
+          <p className="text-gray-300">Baik sebagai Tersangka maupun Terdakwa</p>
+        </>
+      ),
       icon: "shield-half-outline",
-    },
-    {
-      title: "Hukum Keluarga",
-      desc: "Menangani perkara perceraian, hak asuh anak, harta gono-gini, dan warisan.",
-      icon: "people-outline",
-    },
-    {
-      title: "Sengketa Tanah",
-      desc: "Membantu klien menyelesaikan konflik tanah, baik secara litigasi maupun non litigasi.",
-      icon: "map-outline",
     },
   ];
 
@@ -33,11 +52,13 @@ export default function Practicial() {
             Bidang Praktik Hukum
           </h2>
           <p className="text-gray-300 leading-relaxed text-lg">
-          Berbagai layanan hukum disediakan secara profesional untuk menangani permasalahan yang sedang dihadapi.
+            Berbagai layanan hukum disediakan secara profesional untuk menangani permasalahan yang sedang dihadapi.
           </p>
-          <img className="mt-10 rounded-xl shadow-md" src="lawyerbali.jpg" alt="Lawyer di Bali untuk konsultasi hukum dan bantuan advokat"
-title="Lawyer dan Pengacara Profesional di Bali – Konsultasi Hukum Terpercaya"
- />
+          <img className="mt-10 rounded-xl shadow-md" 
+               src="lawyerbali.jpg" 
+               alt="Lawyer di Bali untuk konsultasi hukum dan bantuan advokat"
+               title="Lawyer dan Pengacara Profesional di Bali – Konsultasi Hukum Terpercaya"
+          />
         </div>
 
         {/* Kanan: Daftar area praktik */}
@@ -49,7 +70,9 @@ title="Lawyer dan Pengacara Profesional di Bali – Konsultasi Hukum Terpercaya"
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">{area.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{area.desc}</p>
+                <div className="text-gray-400 text-sm leading-relaxed">
+                  {area.desc}
+                </div>
               </div>
             </div>
           ))}

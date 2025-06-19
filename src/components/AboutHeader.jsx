@@ -34,10 +34,10 @@ const items = [
         {/* Judul & Tombol */}
         <div className='md:mt-0 mt-36'>
         <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">
-          Selalu Menjunjung Tinggi <span className="text-primary">Keadilan Dalam Setiap</span> <br /> Menangani Perkara
+          Menjunjung Tinggi <span className="text-primary">Keadilan Dalam Setiap</span> <br /> Menangani Perkara
         </h1>
         <p className="text-gray-200 max-w-3xl py-5 mb-6">
-          Setiap permasalahan hukum membutuhkan penanganan yang tepat dan bijaksana. 
+          Setiap permasalahan hukum membutuhkan strategi penanganan yang tepat dan bijaksana. 
           Dapatkan advice dan pendampingan hukum yang terpercaya, profesional, dan berkomitmen penuh untuk menegakkan keadilan serta melindungi hak clien secara menyeluruh.
         </p>
 

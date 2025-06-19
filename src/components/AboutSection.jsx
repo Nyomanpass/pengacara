@@ -32,7 +32,7 @@ const AboutUsSection = () => {
           {/* Kanan - Kutipan */}
           <div className="md:col-span-1">
             <p className="text-gray-600 text-lg leading-relaxed italic mb-6">
-            <span className="text-2xl font-serif text-secondary">S</span>aya, Ni Nengah Saliani, S.H., M.H., adalah seorang advokat & konsultan hukum
+            <span className="text-2xl font-serif text-secondary">S</span>aya, Ni Nengah Saliani, S.H., M.H., adalah seorang advokat/pengacara & konsultan hukum
   yang memiliki komitmen dan berintegritas serta konsisten dalam menangani setiap perkara yang di butuhkan oleh pencari keadilan. 
   Dengan pengalaman dalam menangani berbagai perkara pidana maupun perdata, saya percaya bahwa setiap orang 
   berhak mendapatkan keadilan.
