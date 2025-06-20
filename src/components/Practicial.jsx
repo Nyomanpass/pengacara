@@ -13,19 +13,16 @@ export default function Practicial() {
             Permohonan pengangkatan anak
           </li>
           <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">
-            Perceraian melalui Pengadilan Agama maupun Pengadilan Negeri
+             menangani masalah perceraian Baik pada Pengadilan  Agama  maupun Pengadilan Negeri
+          </li>
+           <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">
+              Menangani permasalahan Perbuatan Melawan hukum maupun wanprestasi baik sebagai penggugat maupun tergugat 
+              baik secara litigasi maupun non litigasi 
+          </li>
+           <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">
+             sengketa tanah lainnya
           </li>
         </ul>
-
-
-        <p className="mt-4 font-medium text-gray-200">Sengketa Tanah:</p>
-       <ul className="list-none space-y-1 text-gray-300 leading-relaxed">
-          <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">Perbuatan melawan hukum</li>
-          <li className="relative pl-5 before:content-['•'] before:absolute before:left-0 before:text-yellow-400">Perbuatan wanprestasi</li>
-        </ul>
-
-
-        <p className="mt-4 text-gray-300">Baik secara Litigasi maupun Non Litigasi</p>
       </>
     ),
 
