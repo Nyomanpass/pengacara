@@ -41,6 +41,15 @@ const Galery = () => {
 
             <div className="overflow-hidden rounded-lg break-inside-avoid">
               <img
+                src="advokat-bali.jpg"
+                alt="Pengacara dan lawyer di Bali memberikan layanan hukum"
+                title="Pengacara & Lawyer di Bali untuk Konsultasi Hukum"
+                className="w-full object-cover rounded-lg transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+
+            <div className="overflow-hidden rounded-lg break-inside-avoid">
+              <img
                 src="kantor-pengacara-bali.jpeg"
                 alt="Kantor jasa pengacara dan lawyer di Bali"
                 title="Kantor Jasa Pengacara & Lawyer di Bali"
